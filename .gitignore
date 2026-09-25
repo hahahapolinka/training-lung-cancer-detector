@@ -1,0 +1,26 @@
+# Виртуальные окружения
+.venv/
+venv/
+env/
+
+# Данные и артефакты обучения/инференса
+dataset*/
+runs/
+results_staging/
+weights/
+*.pt
+*.pth
+*.h5
+*.onnx
+
+# Кэш Python и IDE
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.idea/
+.vscode/
+*.swp
+
+# Системный мусор
+.DS_Store
+Thumbs.db
